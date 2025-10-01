@@ -34,3 +34,13 @@ document.getElementById("declineCookies").onclick = function () {
 
   alert("You declined cookies ❌");
 };
+// Example code for script.js
+document.getElementById('themeDark').addEventListener('click', function() {
+    document.body.classList.add('dark-mode');
+    document.body.classList.remove('light-mode');
+});
+
+document.getElementById('themeLight').addEventListener('click', function() {
+    document.body.classList.add('light-mode');
+    document.body.classList.remove('dark-mode');
+});
