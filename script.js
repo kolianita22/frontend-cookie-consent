@@ -36,11 +36,11 @@ document.getElementById("declineCookies").onclick = function () {
 };
 // Example code for script.js
 document.getElementById('themeDark').addEventListener('click', function() {
-    document.body.classList.add('dark-mode');
-    document.body.classList.remove('light-mode');
+    document.body.classList.add('dark');
+    document.body.classList.remove('light');
 });
 
 document.getElementById('themeLight').addEventListener('click', function() {
-    document.body.classList.add('light-mode');
-    document.body.classList.remove('dark-mode');
+    document.body.classList.add('light');
+    document.body.classList.remove('dark');
 });
